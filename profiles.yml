@@ -22,5 +22,8 @@ codefix_fabric:
         name: "{{ env_var('DBT_JOB_NAME') }}"
       connect_retries: 1
       connect_timeout: 10
-      session_start_timeout: "{{ env_var('DBT_FABRIC_SESSION_START_TIMEOUT', '1800') | int }}"
+      # Hardcoded (not env_var) so neither the agent's verify nor the assertion's
+      # independent rebuild can fall back to the adapter's 600s default — F4 Spark
+      # cold-start is ~10 min and the 600s default times out under it (run #6).
+      session_start_timeout: 1800
       threads: 5
