@@ -7,3 +7,5 @@ dbt_packages/
 *.duckdb
 *.duckdb.wal
 .user.yml
+target/graph_summary.json
+target/semantic_manifest.json
