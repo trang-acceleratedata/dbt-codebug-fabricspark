@@ -1,0 +1,11 @@
+name: 'codefix_fabric'
+version: '1.0.0'
+config-version: 2
+profile: 'codefix_fabric'
+model-paths: ["models"]
+test-paths: ["tests"]
+clean-targets: ["target", "dbt_packages"]
+models:
+  codefix_fabric:
+    marts:
+      +materialized: table

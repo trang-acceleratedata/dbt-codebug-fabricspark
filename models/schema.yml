@@ -1,0 +1,4 @@
+version: 2
+models:
+  - name: fct_opportunity
+    description: Opportunity fact; won_amount must be 0 unless stage_name = 'Won'.
