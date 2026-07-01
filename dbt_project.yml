@@ -9,3 +9,7 @@ models:
   codefix_fabric:
     marts:
       +materialized: table
+
+seeds:
+  codefix_fabric:
+    +schema: "{{ env_var('EPHEMERAL_SCHEMA', 'dbo') }}"
