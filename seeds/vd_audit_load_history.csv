@@ -1,0 +1,5 @@
+load_id,artifact,run_started_at,status,row_count,source_row_count
+dbt-build-2026-06-23,fct_opportunity,2026-06-23T02:00:00Z,success,10480,10480
+dbt-build-2026-06-27,fct_opportunity,2026-06-27T02:00:00Z,success,10312,10312
+dbt-build-2026-06-29,fct_opportunity,2026-06-29T02:00:00Z,success,10395,10395
+dbt-build-2026-06-30-0042,fct_opportunity,2026-06-30T02:00:00Z,success,4150,4150
