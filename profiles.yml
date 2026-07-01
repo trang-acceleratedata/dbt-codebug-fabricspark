@@ -7,7 +7,7 @@ codefix_fabric:
       authentication: token_credential
       credential_class: "vibedata_studio_azure_cred_broker.StudioAzureCredBroker"
       credential_kwargs:
-        broker_url: "{{ env_var('VD_AZ_TOKEN_URL') }}"
+        broker_url: "{{ env_var('VD_CREDENTIAL_BROKER_URL') }}"
         credential_file: "{{ env_var('VD_CREDENTIAL_FILE') }}"
       endpoint: https://api.fabric.microsoft.com/v1
       workspaceid: "{{ env_var('EPHEMERAL_WORKSPACE_ID') }}"
