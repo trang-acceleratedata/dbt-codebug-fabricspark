@@ -1,0 +1,5 @@
+load_id,artifact,run_started_at,status,row_count,freshness_ts
+dbt-build-2026-06-27,fct_opportunity,2026-06-27T02:00:00Z,success,10312,2026-06-27T02:04:00Z
+dbt-build-2026-06-28,fct_opportunity,2026-06-28T02:00:00Z,success,10344,2026-06-28T02:05:00Z
+dbt-build-2026-06-29,fct_opportunity,2026-06-29T02:00:00Z,success,10395,2026-06-29T02:04:00Z
+dbt-build-2026-06-30-scheduler-skip,fct_opportunity,2026-06-30T02:00:00Z,skipped,,
